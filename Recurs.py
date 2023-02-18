@@ -5,4 +5,5 @@ def factorial(n):
     return n * prevfac
 
 
-print(factorial(4))
+n = int(input())
+print(factorial(n))
